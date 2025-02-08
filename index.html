@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Bio</h1>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2>About Me</h2>
+            <img src="Michael ProfileSquare.jpg" alt="A recognizable picture of Michael Orgunov" class="profile-pic">
+            <p>Hi, I'm <strong>Michael Orgunov</strong>, and I am a senior computer science student!</p>
+            <p>Find me on <a href="https://linkedin.com/in/michael-orgunov/" target="_blank">LinkedIn</a> and <a href="https://github.com/michaelorgunov" target="_blank">GitHub</a></p>
+        </section>
+
+        <section id="interests">
+            <h2>My Interests in Accessibility</h2>
+            <p>I believe that accessibility should not be an afterthought in development. 
+                Accessibility should be a component of proper code design. Some things I am interested in are:</p>
+            <ul>
+                <li>Keyboard navigation</li>
+                <li>Color contrast and readability</li>
+                <li>Screen reader compatibility</li>
+            </ul>
+        </section>
+
+        <section id="accessibility">
+            <h2>My accessibility focus</h2>
+            <p>Accessibility has not always been something that I thought much of. 
+                However, I have been trying to get better at keyboard only navigation in an effort to use my mouse less.
+                I was surprised how many sites supported keyboard navigation and how useful some of these elements are.
+                For example, "Skip to Main Content" links and headers are so useful for quick navigation.
+                Realizing that these exist due to accessibility made me realize how much accessibility makes everyone's lives easier.
+            </p>
+            <img src="keyboard.png" alt="" class="decorative-img">
+        </section> 
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you're interested in teaming up on accessibility projects, feel free to reach out!</p>
+            <form action="mailto:morgunov@tamu.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
